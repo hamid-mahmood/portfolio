@@ -1,0 +1,26 @@
+.decorator {
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 20px;
+  &::before {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-1);
+    content: "";
+  }
+  .decorator-text {
+    line-height: 40px;
+    position: absolute;
+    left: 20px;
+  }
+  .arrow {
+    line-height: 50px;
+    position: absolute;
+    left: 90px;
+    animation-name: upDown;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+}

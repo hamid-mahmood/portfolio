@@ -1,0 +1,16 @@
+.media-container {
+  // pad
+  margin-bottom: 20px;
+  .avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // align-items: center;
+    .avatar {
+      background-color: var(--primary-1);
+    }
+  }
+  .media-text {
+    color: var(--base-2);
+  }
+}

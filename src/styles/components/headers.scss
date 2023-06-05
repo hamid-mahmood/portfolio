@@ -1,0 +1,41 @@
+.headerWrapper {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(to bottom right, #04303140, #090b0b73),
+    url("../../assets/cover-image-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .header-container {
+    min-height: 90vh;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 18px;
+    color: var(--base-2);
+    justify-content: center;
+    .header-title {
+      font-size: 4rem;
+      @media (max-width: 600px) {
+        font-size: 2rem;
+      }
+    }
+    .header-description {
+      @media (max-width: 600px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@keyframes upDown {
+  0% {
+    padding-top: 0;
+    transform: scale(0);
+  }
+  100% {
+    padding-top: 10px;
+    transform: scale(1);
+  }
+}

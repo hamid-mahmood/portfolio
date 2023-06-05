@@ -1,0 +1,36 @@
+@import "./styles/base.scss";
+
+body {
+  margin: 0;
+  font-family: Product Sans, Arial, sans-serif;
+  //   background-color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.responsive-image {
+  width: 100%;
+  min-height: 346px;
+  @media (max-width: 1200px) {
+    min-height: 366px;
+  }
+  @media (max-width: 900px) {
+    min-height: 266px;
+  }
+}

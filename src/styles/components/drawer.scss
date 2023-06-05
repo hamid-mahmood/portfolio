@@ -1,0 +1,16 @@
+.drawer {
+  width: 250px;
+  height: 100vh;
+}
+.drawer-wrapper {
+  width: 250px;
+  height: 100vh;
+  background-color: var(--primary-2);
+  .drawer-nav-list {
+    padding-top: 30px;
+    .drawer-nav-item {
+      color: var(--base-2);
+      cursor: pointer;
+    }
+  }
+}

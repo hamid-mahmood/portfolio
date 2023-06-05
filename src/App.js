@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Headers from "./components/Headers/Headers";
+import "./App.scss";
+import AboutUs from "./components/BodyComponents/AboutUs";
+import Portfolio from "./components/BodyComponents/Portfolio";
+import Contact from "./components/BodyComponents/Contact";
+import Footer from "./components/BodyComponents/Footer";
+import { SnackbarProvider } from "notistack";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    //   test
+    // </div>
+    <>
+      <Headers />
+      <AboutUs />
+      <Portfolio />
+      <SnackbarProvider maxSnack={3}>
+        <Contact />
+      </SnackbarProvider>
+      <Footer />
+    </>
   );
 }
 

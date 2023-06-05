@@ -1,0 +1,14 @@
+.footer-container {
+  background-color: var(--primary-2);
+  color: var(--base-2);
+  padding: 16px;
+  position: relative;
+
+  .up-btn {
+    position: absolute;
+    right: 5px;
+    bottom: 35px;
+    color: var(--base-2);
+    background-color: var(--primary-1);
+  }
+}

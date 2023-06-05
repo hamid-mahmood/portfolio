@@ -1,0 +1,40 @@
+.dark-section {
+  background-color: var(--primary-2);
+  padding: 40px 0;
+  .image-container {
+    position: relative;
+    &:hover {
+      .image-overlay {
+        opacity: 0.9;
+      }
+    }
+  }
+  .image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-1);
+    color: var(--base-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.7s;
+    .title {
+      font-size: 2rem;
+      margin-bottom: 18px;
+      @media (max-width: 600px) {
+        font-size: 1.2rem;
+      }
+    }
+    .action-btn {
+      color: var(--base-2);
+      &:hover {
+        border: 2px solid white;
+      }
+    }
+  }
+}

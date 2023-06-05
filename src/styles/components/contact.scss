@@ -1,0 +1,16 @@
+.form-container {
+  .form-label {
+    color: var(--base-2);
+    &.Mui-focused {
+      color: var(--base-2);
+    }
+  }
+  .submit-btn {
+    color: var(--base-2);
+    background-color: var(--primary-2);
+
+    &:hover {
+      background-color: var(--primary-2);
+    }
+  }
+}
