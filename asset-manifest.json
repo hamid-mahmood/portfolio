@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f086fbd.css",
-    "main.js": "/static/js/main.30836225.js",
-    "static/media/cover-image-min.jpg": "/static/media/cover-image-min.a80bb4407b1ae38064a6.jpg",
-    "static/media/tabiyat.jpg": "/static/media/tabiyat.c9acd7d644708f4f7c1f.jpg",
-    "static/media/contactus.jpg": "/static/media/contactus.49e280c5beb60d8cfa00.jpg",
-    "static/media/About.jpg": "/static/media/About.964e39b2a761f1856842.jpg",
-    "static/media/back-office.jpg": "/static/media/back-office.e53f003aee74edb38294.jpg",
-    "index.html": "/index.html",
-    "main.9f086fbd.css.map": "/static/css/main.9f086fbd.css.map",
-    "main.30836225.js.map": "/static/js/main.30836225.js.map"
+    "main.css": "/portfolio/static/css/main.5608bbac.css",
+    "main.js": "/portfolio/static/js/main.1e55e7f4.js",
+    "static/media/cover-image-min.jpg": "/portfolio/static/media/cover-image-min.a80bb4407b1ae38064a6.jpg",
+    "static/media/tabiyat.jpg": "/portfolio/static/media/tabiyat.c9acd7d644708f4f7c1f.jpg",
+    "static/media/contactus.jpg": "/portfolio/static/media/contactus.49e280c5beb60d8cfa00.jpg",
+    "static/media/About.jpg": "/portfolio/static/media/About.964e39b2a761f1856842.jpg",
+    "static/media/back-office.jpg": "/portfolio/static/media/back-office.e53f003aee74edb38294.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.5608bbac.css.map": "/portfolio/static/css/main.5608bbac.css.map",
+    "main.1e55e7f4.js.map": "/portfolio/static/js/main.1e55e7f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f086fbd.css",
-    "static/js/main.30836225.js"
+    "static/css/main.5608bbac.css",
+    "static/js/main.1e55e7f4.js"
   ]
 }
